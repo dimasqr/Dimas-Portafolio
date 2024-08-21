@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dimas Quintana | Portfolio</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Work Experience</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <button class="btn--text btn--scroll-to"></button>
+      </div>
+    </header>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Work Experience</h2>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            Reporting Lead
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            Reporting Analyst
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            Real Time Analyst
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1"></div>
+          <h5 class="operations__header">
+            IntouchCX, Guatemala | April 2021 - Current
+          </h5>
+          <p>
+            Experienced in data automation and ETL processes using Python, with
+            a proven track record of extracting, cleaning, and uploading data to
+            BigQuery for executive dashboard creation. Supervised multiple
+            programs, leading a team of eight reporting analysts, and
+            spearheaded team development initiatives, including hiring.
+            Developed executive dashboards in Excel, Looker Studio, and Tableau,
+            and created comprehensive reports from scratch, including data
+            extraction, cleaning, and analysis. Automated tasks using Python and
+            Google App Script, significantly improving operational efficiency.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2"></div>
+          <h5 class="operations__header">
+            IntouchCX, Guatemala | January 2020 - April 2021
+          </h5>
+          <p>
+            Managed the reporting suite for the assigned program, updating and
+            distributing scheduled reports. Addressed ad-hoc reporting requests
+            and developed weekly, monthly, quarterly, and yearly business
+            reviews. Ensured data accuracy and reliability in reports,
+            supporting data-driven decision-making processes.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3"></div>
+          <h5 class="operations__header">
+            IntouchCX, Guatemala | April 2019 - December 2019
+          </h5>
+          <p>
+            Managed real-time reporting by monitoring incoming volume across
+            various channels, ensuring timely and informed decisions on overtime
+            (OT) and voluntary time off (VTO) to meet client requirements.
+            Reviewed and processed PTO requests for employees within the
+            assigned program, and communicated staffing, SLA, and volume reports
+            to relevant stakeholders.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
