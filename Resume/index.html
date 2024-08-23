@@ -14,104 +14,129 @@
     <title>Dimas Quintana | Portfolio</title>
     <script defer src="script.js"></script>
   </head>
+
   <body>
     <header class="header">
       <nav class="nav">
         <ul class="nav__links">
-          <li class="nav__item">
-            <a class="nav__link" href="#section--1">About</a>
-          </li>
           <li class="nav__item">
             <a class="nav__link" href="#section--2">Work Experience</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#section--3">Projects</a>
           </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#section--4">Contact Me</a>
-          </li>
         </ul>
       </nav>
-
-      <div class="header__title">
-        <!-- <h1 onclick="alert('HTML alert')"> -->
-        <button class="btn--text btn--scroll-to"></button>
-      </div>
     </header>
 
-    <section class="section" id="section--2">
-      <div class="section__title">
-        <h2 class="section__description">Work Experience</h2>
+    <section class="section_about_me" id="section--1">
+      <div class="left-content">
+        <h2>WELCOME TO MY PORTFOLIO 👋</h2>
+        <h1 class="my_name">Dimas Quintana</h1>
+        <p>
+          Experienced in data automation, ETL processes, and executive dashboard
+          creation, with a strong track record in extracting, cleaning, and
+          uploading data to cloud-based database management systems. Led teams
+          to develop executive dashboards and comprehensive reports from scratch
+          using Excel, Looker Studio, and Tableau. Skilled in automating tasks
+          with Python and Google App Script, significantly improving operational
+          efficiency. Proficient in managing real-time reporting, ensuring data
+          accuracy, and supporting data-driven decision-making across various
+          organizational levels.
+        </p>
       </div>
-
-      <div class="operations">
-        <div class="operations__tab-container">
-          <button
-            class="btn operations__tab operations__tab--1 operations__tab--active"
-            data-tab="1"
-          >
-            Reporting Lead
-          </button>
-          <button class="btn operations__tab operations__tab--2" data-tab="2">
-            Reporting Analyst
-          </button>
-          <button class="btn operations__tab operations__tab--3" data-tab="3">
-            Real Time Analyst
-          </button>
-        </div>
-        <div
-          class="operations__content operations__content--1 operations__content--active"
-        >
-          <div class="operations__icon operations__icon--1"></div>
-          <h5 class="operations__header">
-            IntouchCX, Guatemala | April 2021 - Current
-          </h5>
-          <p>
-            Experienced in data automation and ETL processes using Python, with
-            a proven track record of extracting, cleaning, and uploading data to
-            BigQuery for executive dashboard creation. Supervised multiple
-            programs, leading a team of eight reporting analysts, and
-            spearheaded team development initiatives, including hiring.
-            Developed executive dashboards in Excel, Looker Studio, and Tableau,
-            and created comprehensive reports from scratch, including data
-            extraction, cleaning, and analysis. Automated tasks using Python and
-            Google App Script, significantly improving operational efficiency.
-          </p>
-        </div>
-
-        <div class="operations__content operations__content--2">
-          <div class="operations__icon operations__icon--2"></div>
-          <h5 class="operations__header">
-            IntouchCX, Guatemala | January 2020 - April 2021
-          </h5>
-          <p>
-            Managed the reporting suite for the assigned program, updating and
-            distributing scheduled reports. Addressed ad-hoc reporting requests
-            and developed weekly, monthly, quarterly, and yearly business
-            reviews. Ensured data accuracy and reliability in reports,
-            supporting data-driven decision-making processes.
-          </p>
-        </div>
-        <div class="operations__content operations__content--3">
-          <div class="operations__icon operations__icon--3"></div>
-          <h5 class="operations__header">
-            IntouchCX, Guatemala | April 2019 - December 2019
-          </h5>
-          <p>
-            Managed real-time reporting by monitoring incoming volume across
-            various channels, ensuring timely and informed decisions on overtime
-            (OT) and voluntary time off (VTO) to meet client requirements.
-            Reviewed and processed PTO requests for employees within the
-            assigned program, and communicated staffing, SLA, and volume reports
-            to relevant stakeholders.
-          </p>
-        </div>
+      <div class="center-content">
+        <h3>Skills</h3>
+        <ul>
+          <li>Data Analysis</li>
+          <li>Python</li>
+          <li>Selenium</li>
+          <li>Beautiful Soup</li>
+          <li>Big Query</li>
+          <li>Google Data Form</li>
+          <li>Google App Script</li>
+          <li>Google Looker Studio</li>
+          <li>Tableau</li>
+        </ul>
+      </div>
+      <div class="right-content">
+        <img
+          class="my_pic"
+          src="https://drive.google.com/thumbnail?id=1mPfzP826FvouD32b1ozx-NTpZ9L9QwL_&sz=w800"
+        />
+        <h2>Email: dimasquintana1@gmail.com</h2>
       </div>
     </section>
 
-    <div class="modal hidden">
-      <button class="btn--close-modal">&times;</button>
-    </div>
-    <div class="overlay hidden"></div>
+    <section id="section--2">
+      <h2 class="job_title">Work Experience</h2>
+      <div class="button-group">
+        <button
+          class="btn work_experience__tab experience__tab--1 experience__tab--active"
+          data-tab="1"
+        >
+          Reporting Lead
+        </button>
+        <button
+          class="btn work_experience__tab experience__tab--2"
+          data-tab="2"
+        >
+          Reporting Analyst
+        </button>
+        <button
+          class="btn work_experience__tab experience__tab--3"
+          data-tab="3"
+        >
+          Real Time Analyst
+        </button>
+        <button
+          class="btn work_experience__tab experience__tab--4"
+          data-tab="4"
+        >
+          Customer Service Representative
+        </button>
+      </div>
+      <div
+        class="work_experience__content work_experience__content--1 work_experience__content--active"
+      >
+        <p>
+          Reporting Lead Experienced in data automation and ETL processes using
+          Python, with a proven track record of extracting, cleaning, and
+          uploading data to BigQuery for executive dashboard creation.
+          Supervised multiple programs, leading a team of eight reporting
+          analysts, and spearheaded team development initiatives, including
+          hiring. Developed executive dashboards in Excel, Looker Studio, and
+          Tableau, and created comprehensive reports from scratch, including
+          data extraction, cleaning, and analysis. Automated tasks using Python
+          and Google App Script, significantly improving operational efficiency.
+        </p>
+      </div>
+      <div class="work_experience__content work_experience__content--2">
+        <p>
+          Managed the reporting suite for the assigned program, updating and
+          distributing scheduled reports. Addressed ad-hoc reporting requests
+          and developed weekly, monthly, quarterly, and yearly business reviews.
+          Ensured data accuracy and reliability in reports, supporting
+          data-driven decision-making processes.
+        </p>
+      </div>
+      <div class="work_experience__content work_experience__content--3">
+        <p>
+          Managed real-time reporting by monitoring incoming volume across
+          various channels, ensuring timely and informed decisions on overtime
+          (OT) and voluntary time off (VTO) to meet client requirements.
+          Reviewed and processed PTO requests for employees within the assigned
+          program, and communicated staffing, SLA, and volume reports to
+          relevant stakeholders.
+        </p>
+      </div>
+      <div class="work_experience__content work_experience__content--4">
+        <p>Handled calls, emails and chats for the assigned program.</p>
+      </div>
+    </section>
+
+    <section id="section--3">
+      <h2 class="job_title">My Projects</h2>
+    </section>
   </body>
 </html>
